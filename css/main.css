@@ -1,0 +1,108 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font: 14px Century Gothic, arial, Tahoma, sans-serif;
+  color: #333;
+}
+
+div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, td, tr, form, fieldset, label, select, input, textarea {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  list-style: none;
+}
+
+select, input, textarea {
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+textarea {
+  vertical-align: top;
+}
+
+input[type=submit] {
+  cursor: pointer;
+}
+
+img, fieldset {
+  border: 0;
+}
+
+table {
+  border-spacing: 0;
+}
+
+a:link, a:visited {
+  font: 16px Century Gothic, sans-serif;
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.hide {
+  display: none;
+}
+
+.start {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 2rem 0;
+  text-align: center;
+  z-index: 10;
+  color: #FFF;
+  font-size: 1.25rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.score {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  color: #e60000;
+  padding: 1rem 0;
+  z-index: 11;
+  font-size: 1.25rem;
+}
+
+.car {
+  width: 50px;
+  height: 120px;
+  background: transparent url(../img/player.png) center/cover no-repeat;
+  position: absolute;
+}
+
+.enemy {
+  width: 50px;
+  height: 120px;
+  position: absolute;
+}
+
+.gameArea {
+  width: 300px;
+  height: 100vh;
+  position: relative;
+  margin: auto;
+  background: #222;
+  overflow: hidden;
+}
+
+.line {
+  position: absolute;
+  width: 10px;
+  background: #FFF;
+  left: 145px;
+}
